@@ -24,7 +24,7 @@ function AboutUs() {
                             At the heart of real estate innovation, we drive the industry forward with pioneering technology and cutting-edge solutions. Our commitment to advancing property search and transaction processes sets new standards for efficiency and user experience
                             </p>
                             <div className="w-28 mt-6">
-                                <CustomButton title="" />
+                                <CustomButton title="Learn" />
                             </div>
                         </div>
                     </div>

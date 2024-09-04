@@ -41,7 +41,7 @@ function Testimonials() {
 
 
     return (
-        <div data-aos="fade-in" className="lg:mt-40 container mx-auto">
+        <div data-aos="fade-in" className="lg:mt-40 mt-20 container mx-auto">
             <div className="text-center">
                 <CustomFrame title="Testimonials" img={Frame4} />
                 <p className='text-5xl font-normal my-4 text-[#14161C]'>Look at what people <br /> say about us</p>

@@ -46,11 +46,11 @@ function WhyUs() {
                             <img className='bg-[#A4A6B0] rounded-full p-1 mr-1.5' src={mapPin2} alt='user' />
                             <p className='font-medium text-[14px] text-[#040404]'>2 bathrooms</p>
                         </div>
-                        <div className='bg-[#ffffff] px-4 py-3 shadow-lg inline-flex rounded-xl absolute bottom-20 left-28 '>
+                        <div className='bg-[#ffffff] px-4 py-3 shadow-lg inline-flex rounded-xl absolute lg:bottom-20 bottom-10 lg:left-28 '>
                             <img className='bg-[#A4A6B0] rounded-full p-1 mr-1.5' src={mapPin3} alt='user' />
                             <p className='font-medium text-[14px] text-[#040404]'>4 Parking zones</p>
                         </div>
-                        <div className='bg-[#ffffff] px-4 py-3 shadow-lg inline-flex rounded-xl absolute lg:bottom-16 bottom-4 right-28 '>
+                        <div className='bg-[#ffffff] px-4 py-3 shadow-lg inline-flex rounded-xl absolute lg:bottom-16 bottom-3 right-0 lg:right-28 '>
                             <img className='bg-[#A4A6B0] rounded-full p-1 mr-1.5' src={mapPin3} alt='user' />
                             <p className='font-medium text-[14px] text-[#040404]'>4 bedrooms</p>
                         </div>

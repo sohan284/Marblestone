@@ -38,19 +38,19 @@ function ProjectCustomer() {
     prevArrow: <SamplePrevArrow />
   };
   return (
-    <div data-aos="fade-in" className="mt-20 container mx-auto">
+    <div data-aos="fade-in" className="lg:mt-20 mt-12 container mx-auto">
       <div className="flex justify-center">
         <div className="mt-6 grid w-full lg:grid-cols-2  gap-20">
           <div className='grid lg:grid-cols-2 gap-10'>
             <div>
               <p className='text-[18px] font-medium'>Our Project</p>
-              <h1 className="text-7xl font-medium"><CountUp end={10} />k<span className="text-gray-400">+</span></h1>
+              <h1 className="text-7xl font-medium"><CountUp end={10} delay={1} />k<span className="text-gray-400">+</span></h1>
 
               <p className='text-[16px] mt-5 text-[#464851]'>We have successfully managed 10,000 projects, showcasing our extensive experience and ability to handle diverse client needs with precision</p>
             </div>
             <div>
               <p className='text-[18px] font-medium'>Our Customer</p>
-              <h1 className="text-7xl font-medium"><CountUp end={200} /><span className="text-gray-400">k</span></h1>
+              <h1 className="text-7xl font-medium"><CountUp end={200} delay={1} /><span className="text-gray-400">k</span></h1>
 
               <p className='text-[16px] mt-5 text-[#464851]'>Our commitment to excellence is reflected in our service to over 200,000 customers, each benefiting from our dedicated support and high-quality solutions</p>
             </div>

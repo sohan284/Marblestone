@@ -20,7 +20,7 @@ function OurProcess() {
     ]
 
     return (
-        <div data-aos="fade-in" className="lg:mt-40 container mx-auto">
+        <div data-aos="fade-in" className="lg:mt-40 mt-20 container mx-auto">
             <div className="text-center">
                 <CustomFrame title="Our Process" img={Frame3} />
                 <p className='text-5xl font-normal my-4 text-[#14161C]'>Find your dream house as <br /> easy as 1, 2, 3</p>

@@ -11,12 +11,21 @@ function SeenOn() {
   const settings = {
     dots: false,
     infinite: true,
-    slidesToShow: 4,
+    slidesToShow: 5,
     slidesToScroll: 1,
     autoplay: true,
     speed: 3000,
     autoplaySpeed: 1000,
-    cssEase: "linear"
+    cssEase: "linear",
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 2,  
+          slidesToScroll: 1,
+        },
+      },
+    ],
   };
   return (
     <div data-aos="fade-in" className="mt-20 container mx-auto">

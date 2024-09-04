@@ -1,10 +1,12 @@
 import AboutUs from "../components/HomePage/AboutUs";
 import Header from "../components/HomePage/Header";
+import OurBlogs from "../components/HomePage/OurBlogs";
 import OurProcess from "../components/HomePage/OurProcess";
 import ProjectCustomer from "../components/HomePage/ProjectCustomer";
 import SeenOn from "../components/HomePage/SeenOn";
 import Testimonials from "../components/HomePage/Testimonials";
 import WhyUs from "../components/HomePage/WhyUs";
+import Footer from "../shared/Footer";
 
 function HomePage() {
     return (
@@ -16,6 +18,8 @@ function HomePage() {
             <WhyUs />
             <OurProcess />
             <Testimonials />
+            <OurBlogs />
+            <Footer />
         </div>
     )
 }
