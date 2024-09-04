@@ -6,7 +6,6 @@ import { Icon } from '@mui/material';
 import mapPin1 from '../../assets/MapPin.png'
 import mapPin2 from '../../assets/MapPin2.png'
 import mapPin3 from '../../assets/MapPin3.png'
-import mapPin4 from '../../assets/MapPin4.png'
 function WhyUs() {
 
 
