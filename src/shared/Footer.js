@@ -5,6 +5,8 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import EmailIcon from '@mui/icons-material/Email';
 import WorkIcon from '@mui/icons-material/Work';
+import CallIcon from '@mui/icons-material/Call';
+import ContactSupportIcon from '@mui/icons-material/ContactSupport';
 import logo from '../assets/Group.png'
 function Footer() {
     return (
@@ -91,14 +93,14 @@ function Footer() {
                             </div>
                         </div>
                         <div className='flex'>
-                            <EmailIcon />
+                            <CallIcon />
                             <div className='ml-2'>
                                 <p className='text-[#A4A6B0] font-normal'>Phone Number</p>
                                 <p className='font-medium'>+880 1788175088</p>
                             </div>
                         </div>
                         <div className='flex'>
-                            <EmailIcon />
+                            <ContactSupportIcon />
                             <div className='ml-2'>
                                 <p className='text-[#A4A6B0] font-normal'>Help & support</p>
                                 <p className='font-medium'>support@gmail.com</p>
