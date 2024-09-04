@@ -6,20 +6,7 @@ import Slider from 'react-slick';
 import { useRef } from 'react';
 function Testimonials() {
     let sliderRef = useRef(null);
-    const processDetails = [
-        {
-            title: '1. Search for your favorite house in your location',
-            details: "Explore a wide range of homes tailored to your preferences, right in your desired neighborhood. Our listings feature detailed descriptions, high-quality images, and virtual tours to help you find the perfect match. Whether you're looking for modern apartments, cozy cottages, or spacious family homes, your dream property is just a click away!"
-        },
-        {
-            title: '2. Make a visit appointment with one of our agents',
-            details: "Schedule a personalized tour with our expert agents at your convenience. Choose your preferred date and time, and our team will ensure a seamless viewing experience, guiding you through every detail of the property. Whether it's your first visit or a follow-up, we're here to help you make the best decision for your future home."
-        },
-        {
-            title: '3. Get your dream house in a month, or less',
-            details: "With our efficient process and dedicated team, we streamline every step of the home-buying journey. From browsing to closing, we work tirelessly to ensure you move into your perfect home quickly and smoothly—often within just 30 days or less."
-        }
-    ]
+
     function SampleNextArrow(props) {
         const { className, style, onClick } = props;
         return (
